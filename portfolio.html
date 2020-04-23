@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>kalai-arts design portfolio</title>
+  <meta property="og:title" content="Simply Navigation"/>
+  <meta name="description" property="og:description" content="A simple navigation component built using vanilla JS &amp; Flexbox."/>
+  
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <!-- Navigation nav-wrapper component -->
+  <header class="nav-wrapper">
+    <nav class="nav">
+      <button class="toggle-nav" type="button">
+        <div class="burger -squeeze -offset" type="button">
+          <span class="burger-lines"></span>
+        </div>
+      </button>
+      <a class="logo-link" href="#">
+        <img class="logo" id="logo" src="file:///Users/kalaigajan/Desktop/design%20photos/logo.jpg" alt="Logo">
+      </a>
+      <ul class="nav-list" role="navigation">
+        <div class="list -left">
+          
+          <li class="item">
+            <a class="link" href="#features">Home</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#design">Design</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#organise">Organise & Decor</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#contact">contact</a>
+          </li>
+        </div>
+        <div class="list -right">
+          <div class="overlay"></div>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h1 class="_mt0">Welcome to my design portfolio. </h1>
+      <p class="_mthalf subtitle"> I am kalaiarasi Anbalagan, a Masters(MCA) graduate from India, settled in Japan looking for a web development/related jobs.
+        Interested in design and arts. Here I displayed some of my art works. 
+      </p>
+      <h1 class="_mt0">Paintings </h1>
+      <p class="_mthalf subtitle"> Some of the paintings on the canvas for the display</p>
+      
+      <img src="file:///Users/kalaigajan/Desktop/design%20photos/nest.jpg" alt="birds in a nest" style="width:200px;height:200px;">
+      <img src="file:///Users/kalaigajan/Desktop/design%20photos/saras.jpg" alt="saras" style="width:200px;height:200px;">
+      
+      <p>Sakura painting on the night gives the glimse of the night view point in the dark</p>
+      <img src="file:///Users/kalaigajan/Desktop/design%20photos/sakura.jpg" alt="sakura" style="width:200px;height:200px;">
+      
+      <p>Lavender painting on the canvas is a simple and elegant pleasant feeling art</p>
+      
+      <img src="file:///Users/kalaigajan/Desktop/design%20photos/lavender.jpg" alt="lavender" style="width:200px;height:200px;">
+      
+      
+      <hr class="-major">
+  
+      <h3 id="design">Design</h3>
+      
+      <h1 class="_mt0">Illustrator </h1>
+      <p class="_mthalf subtitle"> some Illustration trials here </p>
+      
+      <img src="file:///Users/kalaigajan/Desktop/design%20photos/buddha.jpg" alt="buddha" style="width:200px;height:200px;">
+      <img src="file:///Users/kalaigajan/Desktop/design%20photos/saras.png" alt="saras" style="width:200px;height:200px;">
+      
+      
+      
+
+      <hr class="-major" id="organise">
+      <h3>Organise and decor </h3>
+    
+      
+      
+      <img src="file:///Users/kalaigajan/Desktop/design%20photos/decor.jpg" alt="decor" style="width:200px;height:200px;">
+      <img src="file:///Users/kalaigajan/Desktop/design%20photos/tablebooks.jpg" alt="books" style="width:200px;height:200px;">
+      
+      
+
+      <hr class="-major" id="contact">
+      <h3>contact</h3>
+       
+      <div id="after_submit"></div>
+      <form id="contact_form" action="portfolio.html" method="POST" enctype="multipart/form-data">
+        <div class="row">
+        <label class="required" for="name">Your name:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        <span id="name_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+      <label class="required" for="email">Your email:</label><br />
+      <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+      <span id="email_validation" class="error_message"></span>
+      </div>
+     <div class="row">
+     <label class="required" for="message">Your message:</label><br />
+     <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+     <span id="message_validation" class="error_message"></span>
+     </div>
+    
+    <input id="submit_button" type="submit" value="Send email" />
+      </form>  
+    </section>
+
+  </main>
+  
+
+
+ 
+  
+</body>
+
+</html>
